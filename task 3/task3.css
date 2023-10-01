@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.main-box{
+    position: relative;
+    width: 45%;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid white;
+    margin-top: 30px;
+    background-image: url(https://media.istockphoto.com/id/1189091313/photo/handsome-man-shopping-for-new-clothes-in-store.jpg?s=612x612&w=0&k=20&c=TxJ4B339e64K70sFgw3RU1xDsi7N0LDBZyT9pB29H64=);
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 20%;
+    height: 10%;
+    border: 0 solid black;
+    background-color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+.box h1{
+    font-size: medium;
+    position: absolute;
+    top: calc(50% - 25%);
+    left: 15px;
+}
+article h2{
+    display: block;
+    margin-left: 27.5%;
+    margin-top: 20px;
+    font-size: medium;
+    color: grey;
+    opacity: 0.7;
+}
+article p:nth-of-type(1){
+    display: block;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: 20px;
+    font-size: 30px;
+    opacity: 0.9;
+    font-family: 'Playfair Display';
+}
+article p:nth-of-type(2){
+    display: block;
+    width: 45%;
+    margin-left: 27.5%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Lato';
+    color: gray;    
+}

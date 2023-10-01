@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-box{
+    width: 500px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.box{
+    position: relative;
+    display: block;
+    width: 465px;
+    height: 50px;
+    border: 1px solid grey;
+    background-color: grey;
+    font-size: 40px;
+}
+.a{
+    position: sticky; 
+    top: 0;
+}
+.b{
+    position: sticky;
+    top: 0;
+}
+.c{
+    position: sticky;
+    top: 0;
+}
+h1{
+    margin: 10px 0;
+}

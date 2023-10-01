@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(./fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(231, 208, 189);
+}
+.logo{
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+    outline: 1px solid brown;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url(https://learningwebdesign.com/4e/materials/chapter04/bistro/blackgoose.png);
+    background-repeat: no no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main h1{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Playfair Display';
+}
+hr{
+    color: rgb(59, 59, 211);
+    width: 80%;
+    margin: 0 auto;
+}
+
+article{
+    width: 80%;
+    font-family: 'Playfair Display';
+}
+.heading{
+    color: rgb(180, 96, 12);
+}
+article p{
+    font-size: 20px;
+    margin: 8px 0;
+    margin-left: 136px;
+}
